@@ -1,6 +1,12 @@
 [![Build
 Status](https://api.travis-ci.org/BlakeWilliams/Elixir-Slack.svg?branch=master)](https://travis-ci.org/BlakeWilliams/Elixir-Slack)
 
+# Reason for forking
+
+Slack API deprecate rtm.start in favor rtm.connect https://api.slack.com/methods/rtm.start
+but switching from rtm.start => rtm.connect https://github.com/BlakeWilliams/Elixir-Slack/pull/184 does not happend
+And this fork fix this ussue
+
 # Elixir-Slack
 
 This is a Slack [Real Time Messaging API] client for Elixir.  You'll need a
